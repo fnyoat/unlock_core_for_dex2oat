@@ -1,0 +1,6 @@
+id=unlock_core_for_dex2oat
+name=dex2oat 全核解锁
+version=1.0
+versionCode=1
+author=fnyoat
+description=让 MIUI artd 的 dex2oat 使用全部 CPU 核心。MIUI 在 artd 里对 dalvik.vm.{boot,background,restore,dex2oat}-dex2oat-cpu-set 设了硬编码回退值 0,1,2,3 与 0,1,4,5，仅当属性为空时生效；本模块在开机时把这些属性设为全核列表，属因、持久、非轮询。
